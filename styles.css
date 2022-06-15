@@ -35,6 +35,8 @@ img {
 
 li{
     display: inline;
+    margin: 0 25px;
+    color: #025157;
 }
 
 .header > * { /* Todos los hijos de la clase header, se le aplica el inline block */
@@ -55,16 +57,30 @@ li{
 
 .navbar{
     width: 70%;
-    text-align: center;
+    height: 45px;
+    text-align: left;
+    font-style: normal;
+    font-family: sans-serif;
     color: #025157;
     font-weight: 500;
 }
-
 .actions{
     width: 15%;
-    text-align: right;
+    text-align: left;
     font-size: 14px;
     font-weight: 600;
+    
+}
+.actions > a {
+    margin: 10px;
+    color: #67b54b;
+}
+.actions > button{
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0px;
+    border-radius: 5px;
 }
 
 .main{
