@@ -272,6 +272,14 @@ iframe {
         font-size: 25px;
         line-height: 1.2;
     }
+    .features{
+        /** Ambas soluciones son correctas **/
+        display: flex;
+        flex-direction: column;      
+        padding: 90px; 
+        /*grid-template: repeat(4,1fr) / 1fr; 
+        padding: 0;*/
+    }
 }
 
 /* Dispositivos pequeños en model landscape (horizontal) */
