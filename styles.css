@@ -232,3 +232,64 @@ iframe {
     display: flex;
     margin: auto;
 }
+
+/* Dispositivos moviles en vista viewport (vertical) */
+@media (max-width: 575px){
+    .navbar,
+    .actions{
+        display: none;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .main{
+        margin-top: 100px;
+    }
+    .banner > *{
+        width: 100%;
+    }
+    .publish > form{
+        flex-direction: column;
+    }
+    .publish > form > div{
+        height: 50px;
+        margin-top: 10px;
+    }
+    .publish> form > div > input{
+        width: 65%;
+    }
+    .promo {
+        flex-direction: column;
+        max-width: 90%;
+    }
+    .explanatoryVideo{
+        width: 100%;
+    }
+    .publish{
+        margin-top: 10px;
+    }
+    .publish > h3{
+        font-size: 25px;
+        line-height: 1.2;
+    }
+}
+
+/* Dispositivos pequeños en model landscape (horizontal) */
+@media (min-width: 576px) and (max-width:767px){
+
+}
+
+/** dispositivos medianos (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/** dispositivos grandes (desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/** dispositivos extra grandes (monitores grandes, tvs) */
+@media (min-width: 1200px) {
+
+}
