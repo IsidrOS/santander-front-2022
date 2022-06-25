@@ -144,7 +144,7 @@ li {
 .promo {
     display: flex;
     width: 70%;
-    margin: 100px auto;
+    margin: 80px auto;
     align-items: center;
 }
 
@@ -235,10 +235,10 @@ iframe {
 
 /* Dispositivos moviles en vista viewport (vertical) */
 @media (max-width: 575px){
-    .navbar,
+    /*.navbar,
     .actions{
         display: none;
-    }
+    }*/
     h1 {
         font-size: 30px;
     }
@@ -279,6 +279,11 @@ iframe {
         padding: 90px; 
         /*grid-template: repeat(4,1fr) / 1fr; 
         padding: 0;*/
+    }
+    iframe{
+        width: 100%;
+        height: 100%;
+        padding: 5%;
     }
 }
 
