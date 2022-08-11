@@ -1,0 +1,22 @@
+// _global.css
+
+//Colores
+$dark-green-title: #025157;
+$dark-green-text: #135359;
+$white: #fff;
+$light-green-text: #67b54b;
+$gray: #979797;
+$blackish: #4a4a4a;
+
+/**
+Fuentes
+**/
+$font-title: "Alegreya", serif;
+
+%base-title{
+    font-family: $font-title;
+    color: $dark-green-text;
+    color: $light-green-text;
+    color: $gray;
+    color: $blackish;
+}
